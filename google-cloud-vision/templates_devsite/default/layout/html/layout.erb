@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html devsite>
+  <head>
+    <%= erb(:headers) %>
+  </head>
+  <body>
+    <div id="main" tabindex="-1">
+      <div id="content"><%= yieldall %></div>
+
+      <%= erb(:footer) %>
+    </div>
+  </body>
+</html>
