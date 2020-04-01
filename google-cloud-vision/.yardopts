@@ -4,8 +4,3 @@
 --markup html
 
 ./lib/**/*.rb
--
-README.md
-AUTHENTICATION.md
-MIGRATING.md
-LICENSE.md
